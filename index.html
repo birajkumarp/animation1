@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>animation4</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<style type="text/css">
+*{
+	margin: 0;
+	padding: 0;
+}
+
+div{
+	height: 100vh;
+	width: 100%;
+	/* background:url(Bridge.jpeg)no-repeat;
+	background-size: 100% 100%; */
+}
+		#b1 {
+			top: 83%;
+			left: 30%;
+			position: absolute;
+			animation: light 10s 1;
+		}
+
+		#b2 {
+			top: 83%;
+			left: 35%;
+			position: absolute;
+			animation: light 10s 1 3s;
+		}
+
+		#b3 {
+			top: 83%;
+			left: 40%;
+			position: absolute;
+			animation: light 10s 1 6s;
+		}
+
+		#b4 {
+			top: 83%;
+			left: 45%;
+			position: absolute;
+			animation: light 10s 1 9s;
+		}
+
+		#b5 {
+			top: 83%;
+			left: 50%;
+			position: absolute;
+			animation: light 10s 1 12s;
+		}
+
+		#b6 {
+			top: 83%;
+			left: 55%;
+			position: absolute;
+			animation: light 10s 1 15s;
+		}
+
+		#b7 {
+			top: 83%;
+			left: 60%;
+			position: absolute;
+			animation: light 10s 1 18s;
+		}
+
+		#b8 {
+			top: 83%;
+			left: 65%;
+			position: absolute;
+			animation: light 10s 1 21s;
+		}
+
+		#b9 {
+			top: 83%;
+			left: 70%;
+			position: absolute;
+			animation: light 4s 20 24s;
+		}
+
+		#b10 {
+			top: 83%;
+			left: 75%;
+			position: absolute;
+			animation: light 2s 20 27s;
+		}
+
+		@keyframes light {
+			10% {
+				transform: translateY(-450px);
+				color: black;
+
+			}
+			11% {
+				transform: translateY(-450px);
+				color: linear-gradient(yellow,white);
+				
+			}
+			89% {
+				transform: translateY(-450px);
+				color: yellow;
+				
+			}
+			90%{
+				transform: translateY(-450px);
+			}
+		}
+		video{
+			position: absolute;
+			height: 100vh;
+			width: 100%;
+			opacity: 10%;
+		}
+		audio{
+			opacity: 30%;
+		}
+	</style>
+</head>
+
+<body>
+	<div>
+	<div id="sss">
+		<i id="b1" class="fa fa-lightbulb-o" style="font-size:100px;color:#141617;"></i>
+		<i id="b2" class="fa fa-lightbulb-o" style="font-size:100px;color:#141617"></i>
+		<i id="b3" class="fa fa-lightbulb-o" style="font-size:100px;color:#141617"></i>
+		<i id="b4" class="fa fa-lightbulb-o" style="font-size:100px;color:#141617"></i>
+		<i id="b5" class="fa fa-lightbulb-o" style="font-size:100px;color:#141617"></i>
+		<i id="b6" class="fa fa-lightbulb-o" style="font-size:100px;color:#141617"></i>
+		<i id="b7" class="fa fa-lightbulb-o" style="font-size:100px;color:#141617"></i>
+		<i id="b8" class="fa fa-lightbulb-o" style="font-size:100px;color:#141617"></i>
+		<i id="b9" class="fa fa-lightbulb-o" style="font-size:100px;color:#141617"></i>
+		<i id="b10" class="fa fa-lightbulb-o" style="font-size:100px;color:#141617"></i>
+		<video controls loop autoplay="autoplay">
+		<source src="video2.MP4" type="">
+	</video>
+	<audio controls>
+		<source src="RamAayenge.Mp3" type="">
+	</audio> 
+	</div>
+	
+</div>
+</body>
+
+</html>
